@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <style type="text/css">
+    	body{text-align: center;
+    		margin-top: 20%
+    	}
+      button{margin-top: 10px;}
+    </style>
+    <script src="index.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <button type="button" name="button" id="genRoom" onclick="drawR()" class="btn btn-primary">Room</button>
+    <button type="button" name="button" id="genRoom" onclick="drawC()" class="btn btn-primary">Corridor</button>
+    <br>
+    <button type="button" name="button" id="genRoom" onclick="drawT()" class="btn btn-primary">Treasure</button>
+    <button type="button" name="button" id="genRoom" onclick="drawTplusOne()" class="btn btn-primary">Treasure+1</button>
+    <button type="button" name="button" id="genRoom" onclick="drawTminusOne()" class="btn btn-primary">Treasure-1</button>
+    <br>
+    <button type="button" name="button" id="genRoom" onclick="addBoss()" class="btn btn-primary">Add won boss battle</button>
+    <button type="button" name="button" id="genRoom" onclick="roomType()" class="btn btn-primary">Room type</button>
+    <br><br>
+    <p id="result">Result of your rolls</p>
+    <p id="bosses">Bosses beaten so far: 0</p>
+
+  </body>
+</html>
