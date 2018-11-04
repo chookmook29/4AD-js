@@ -150,32 +150,32 @@ function drawR(){
       if (trapType === 1){
         let trapType = parseInt(Math.floor(Math.random() * 16));
         trapType += 3;
-        document.getElementById("result").innerHTML=trapType + " Rats";
+        document.getElementById("result").innerHTML=trapType + " Rats Lv1";
       }
       else if (trapType === 2){
         let trapType = parseInt(Math.floor(Math.random() * 16));
         trapType += 3;
-        document.getElementById("result").innerHTML=trapType + " Vampire Bats";
+        document.getElementById("result").innerHTML=trapType + " Vampire Bats Lv1";
       }
       else if (trapType === 3){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 1;
-        document.getElementById("result").innerHTML=trapType + " Giant Centipede(s)";
+        document.getElementById("result").innerHTML=trapType + " Giant Centipede(s) Lv3";
       }
       else if (trapType === 4){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 1;
-        document.getElementById("result").innerHTML=trapType + " Vampire Frog(s)";
+        document.getElementById("result").innerHTML=trapType + " Vampire Frog(s) Lv4";
       }
       else if (trapType === 5){
         let trapType = parseInt(Math.floor(Math.random() * 11));
         trapType += 2;
-        document.getElementById("result").innerHTML=trapType + " Goblin Swarmlings";
+        document.getElementById("result").innerHTML=trapType + " Goblin Swarmlings Lv3";
       }
       else if (trapType === 6){
         let trapType = parseInt(Math.floor(Math.random() * 11));
         trapType += 2;
-        document.getElementById("result").innerHTML=trapType + " Skeletal Rats";
+        document.getElementById("result").innerHTML=trapType + " Skeletal Rats Lv3";
       }}
 
 
@@ -191,12 +191,12 @@ function drawR(){
 	        if (randomRoll <= 3){
 	        	let randomRoll = parseInt(Math.floor(Math.random() * 6));
 	        	randomRoll += 3;
-				document.getElementById("result").innerHTML=randomRoll + " Skeletons";
+				document.getElementById("result").innerHTML=randomRoll + " Skeletons Lv3";
 	        }
 	        else if (randomRoll > 3){
 	        	let randomRoll = parseInt(Math.floor(Math.random() * 6));
 	        	randomRoll += 1;
-				document.getElementById("result").innerHTML=randomRoll + " Zombies";
+				document.getElementById("result").innerHTML=randomRoll + " Zombie(s) Lv3";
 	        }
 
 
@@ -207,27 +207,27 @@ function drawR(){
       else if (trapType === 2){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 4;
-        document.getElementById("result").innerHTML=trapType + " Goblins";
+        document.getElementById("result").innerHTML=trapType + " Goblins Lv3";
       }
       else if (trapType === 3){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 1;
-        document.getElementById("result").innerHTML=trapType + " Hobgoblin(s)";
+        document.getElementById("result").innerHTML=trapType + " Hobgoblin(s) Lv4";
       }
       else if (trapType === 4){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 2;
-        document.getElementById("result").innerHTML=trapType + " Orcs";
+        document.getElementById("result").innerHTML=trapType + " Orcs Lv4";
       }
       else if (trapType === 5){
         let trapType = parseInt(Math.floor(Math.random() * 3));
         trapType += 1;
-        document.getElementById("result").innerHTML=trapType + " Trolls";
+        document.getElementById("result").innerHTML=trapType + " Trolls Lv5";
       }
       else if (trapType === 6){
         let trapType = parseInt(Math.floor(Math.random() * 12));
         trapType += 2;
-        document.getElementById("result").innerHTML=trapType + " Fungi Folk";
+        document.getElementById("result").innerHTML=trapType + " Fungi Folk Lv3";
       }}
 
 
@@ -244,12 +244,12 @@ function drawR(){
 	  if (randomRoll >= 3){
 	        	let randomRoll = parseInt(Math.floor(Math.random() * 6));
 	        	randomRoll += 3;
-				document.getElementById("result").innerHTML=randomRoll + " Skeletons";
+				document.getElementById("result").innerHTML=randomRoll + " Skeletons Lv3";
 	        }
 	  else if (randomRoll > 3){
 	        	let randomRoll = parseInt(Math.floor(Math.random() * 6));
 	        	randomRoll += 1;
-				document.getElementById("result").innerHTML=randomRoll + " Zombies";
+				document.getElementById("result").innerHTML=randomRoll + " Zombie(s) Lv3";
 	        }
 
 
@@ -260,27 +260,27 @@ function drawR(){
       else if (trapType === 2){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 4;
-        document.getElementById("result").innerHTML=trapType + " Goblins";
+        document.getElementById("result").innerHTML=trapType + " Goblins Lv3";
       }
       else if (trapType === 3){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 1;
-        document.getElementById("result").innerHTML=trapType + " Hobgoblin(s)";
+        document.getElementById("result").innerHTML=trapType + " Hobgoblin(s) Lv4";
       }
       else if (trapType === 4){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 2;
-        document.getElementById("result").innerHTML=trapType + " Orcs";
+        document.getElementById("result").innerHTML=trapType + " Orcs Lv4";
       }
       else if (trapType === 5){
         let trapType = parseInt(Math.floor(Math.random() * 3));
         trapType += 1;
-        document.getElementById("result").innerHTML=trapType + " Trolls";
+        document.getElementById("result").innerHTML=trapType + " Trolls Lv5";
       }
       else if (trapType === 6){
         let trapType = parseInt(Math.floor(Math.random() * 12));
         trapType += 2;
-        document.getElementById("result").innerHTML=trapType + " Fungi Folk";
+        document.getElementById("result").innerHTML=trapType + " Fungi Folk Lv3";
       }}
 
     	else if (draw === 9){
@@ -511,32 +511,32 @@ function drawC(){
       if (trapType === 1){
         let trapType = parseInt(Math.floor(Math.random() * 16));
         trapType += 3;
-        document.getElementById("result").innerHTML=trapType + " Rats";
+        document.getElementById("result").innerHTML=trapType + " Rats Lv1";
       }
       else if (trapType === 2){
         let trapType = parseInt(Math.floor(Math.random() * 16));
         trapType += 3;
-        document.getElementById("result").innerHTML=trapType + " Vampire Bats";
+        document.getElementById("result").innerHTML=trapType + " Vampire Bats Lv1";
       }
       else if (trapType === 3){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 1;
-        document.getElementById("result").innerHTML=trapType + " Giant Centipede(s)";
+        document.getElementById("result").innerHTML=trapType + " Giant Centipede(s) Lv3";
       }
       else if (trapType === 4){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 1;
-        document.getElementById("result").innerHTML=trapType + " Vampire Frog(s)";
+        document.getElementById("result").innerHTML=trapType + " Vampire Frog(s) Lv4";
       }
       else if (trapType === 5){
         let trapType = parseInt(Math.floor(Math.random() * 11));
         trapType += 2;
-        document.getElementById("result").innerHTML=trapType + " Goblin Swarmlings";
+        document.getElementById("result").innerHTML=trapType + " Goblin Swarmlings Lv3";
       }
       else if (trapType === 6){
         let trapType = parseInt(Math.floor(Math.random() * 11));
         trapType += 2;
-        document.getElementById("result").innerHTML=trapType + " Skeletal Rats";
+        document.getElementById("result").innerHTML=trapType + " Skeletal Rats Lv3";
       }}
 
 
@@ -552,12 +552,12 @@ function drawC(){
 	        if (randomRoll <= 3){
 	        	let randomRoll = parseInt(Math.floor(Math.random() * 6));
 	        	randomRoll += 3;
-				document.getElementById("result").innerHTML=randomRoll + " Skeletons";
+				document.getElementById("result").innerHTML=randomRoll + " Skeletons Lv3";
 	        }
 	        else if (randomRoll > 3){
 	        	let randomRoll = parseInt(Math.floor(Math.random() * 6));
 	        	randomRoll += 1;
-				document.getElementById("result").innerHTML=randomRoll + " Zombies";
+				document.getElementById("result").innerHTML=randomRoll + " Zombie(s) Lv3";
 	        }
 
 
@@ -568,27 +568,27 @@ function drawC(){
       else if (trapType === 2){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 4;
-        document.getElementById("result").innerHTML=trapType + " Goblins";
+        document.getElementById("result").innerHTML=trapType + " Goblins Lv3";
       }
       else if (trapType === 3){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 1;
-        document.getElementById("result").innerHTML=trapType + " Hobgoblin(s)";
+        document.getElementById("result").innerHTML=trapType + " Hobgoblin(s) Lv4";
       }
       else if (trapType === 4){
         let trapType = parseInt(Math.floor(Math.random() * 6));
         trapType += 2;
-        document.getElementById("result").innerHTML=trapType + " Orcs";
+        document.getElementById("result").innerHTML=trapType + " Orcs Lv4";
       }
       else if (trapType === 5){
         let trapType = parseInt(Math.floor(Math.random() * 3));
         trapType += 1;
-        document.getElementById("result").innerHTML=trapType + " Trolls";
+        document.getElementById("result").innerHTML=trapType + " Trolls Lv5";
       }
       else if (trapType === 6){
         let trapType = parseInt(Math.floor(Math.random() * 12));
         trapType += 2;
-        document.getElementById("result").innerHTML=trapType + " Fungi Folk";
+        document.getElementById("result").innerHTML=trapType + " Fungi Folk Lv3";
       }}
 
 
