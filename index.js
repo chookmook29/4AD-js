@@ -871,6 +871,48 @@ function roomType() {
   	draw += 11;
   	document.getElementById("result").innerHTML=draw;
 	}
+function explosive6() {
+	var draw = parseInt(Math.floor(Math.random() * 6));
+  	draw += 1;
+  	if (draw === 6){
+			        var draw1 = parseInt(Math.floor(Math.random() * 6));
+				  	draw1 += 1;
+				  	drawFinal = draw + draw1;
+				  	if (draw1 === 6){
+										var draw2 = parseInt(Math.floor(Math.random() * 6));
+							  			draw2 += 1;
+							  			drawFinal = draw + draw1 + draw2;
+							  			if (draw2 === 6){
+																	var draw3 = parseInt(Math.floor(Math.random() * 6));
+														  			draw3 += 1;
+														  			drawFinal = draw + draw1 + draw2 + draw3;
+															  			if (draw3 === 6){
+															  			var draw4 = parseInt(Math.floor(Math.random() * 6));
+															  			draw4 += 1;
+															  			drawFinal = draw + draw1 + draw2 + draw3 + draw4;
+															  			if (draw4 === 6){
+																		document.getElementById("result").innerHTML=drawFinal;
+																        }
+											else {
+																     	document.getElementById("result").innerHTML=drawFinal;
+																       }
+															        }
+										else {
+															     	document.getElementById("result").innerHTML=drawFinal;
+															       }
+								        }
+								else {
+								     	document.getElementById("result").innerHTML=drawFinal;
+								       }
+					        }
+					else {
+					       document.getElementById("result").innerHTML=drawFinal;
+					        }
+				}
+	else {
+	       document.getElementById("result").innerHTML=draw;
+	        }}
+
 
 
 
